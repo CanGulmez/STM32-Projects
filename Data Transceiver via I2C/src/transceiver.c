@@ -67,7 +67,12 @@ void Initialize_GPIOA(void) {
    HAL_GPIO_Init(GPIOB, &igpio);
 }
 
-/* I2C1 Peripheral Initialization */
+/** I2C1 Peripheral Initialization 
+ * 
+ * Initialize the I2C peripheral to transmit/receive data.
+ * I'll explain the each entity of I2C1 handler. Of course
+ * You can set the each entity according to your project.
+ */
 void Initialize_I2C1(void) {
 
    // Enable the I2C1 peripheral.
