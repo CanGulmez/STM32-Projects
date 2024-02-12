@@ -10,7 +10,7 @@
 #define AUTHOR    "Ahmet Can Gulmez"
 #define EMAIL     "ahmetcangulmez02@gmail.com"
 #define VERSION   1.0
-#define LICENSE   "MIT"
+#define LICENSE   "GNU GPLv3"
 
 #include "transceiver.h"
 
